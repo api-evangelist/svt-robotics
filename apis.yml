@@ -1,9 +1,31 @@
 aid: svt-robotics
 name: SVT Robotics
-description: 'SVT Robotics is a company surfaced as a portfolio company of cowboy-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  SVT Robotics builds the SOFTBOT Platform, a software integration and
+  orchestration foundation for warehouse automation and the supply chain.
+  Founded in 2018 and headquartered in Norfolk, Virginia, the company lets
+  enterprises connect industrial systems, robotics, AMRs, and warehouse
+  management software through standardized, prebuilt SOFTBOT Connectors —
+  reducing integration complexity and enabling real-time visibility, faster
+  automation deployments, and a resilient data backbone for automation and AI.
+  Customers include DHL Supply Chain, Barrett Distribution Centers, and the
+  Hagen Group. The provider operates a developer documentation hub for the
+  SOFTBOT integration API (docs.svtrobotics.com, currently password-protected)
+  and a public status page; no public OpenAPI, SDK, or open API surface was
+  discoverable at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/svt-robotics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.svtrobotics.com/wp-content/themes/svt-2023/assets/img/SVT-Logo-Blue-JetStream.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Vertical Software
+- Robotics
+- Warehouse Automation
+- Supply Chain
+- Systems Integration
+- Logistics
+- Industrial Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/svt-robotics-domain-security.yml
+- type: Lifecycle
+  url: lifecycle/svt-robotics-lifecycle.yml
+- type: StatusPage
+  url: https://status.svtrobotics.com
+- type: DeveloperPortal
+  url: https://docs.svtrobotics.com
+- type: Blog
+  url: https://www.svtrobotics.com/insights/
+- type: Support
+  url: https://www.svtrobotics.com/contact/
+- type: TermsOfService
+  url: https://www.svtrobotics.com/terms/
+- type: PrivacyPolicy
+  url: https://www.svtrobotics.com/privacy-policy/
 - type: Website
   url: https://www.svtrobotics.com
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

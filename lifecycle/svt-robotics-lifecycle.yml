@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.svtrobotics.com
+status_page: https://status.svtrobotics.com
+notes: >-
+  Public status page is hosted on Atlassian Statuspage ("SVT Robotics Status").
+  No public versioning policy, deprecation policy, Sunset/Deprecation header
+  documentation, or SLA was discoverable — the SOFTBOT developer documentation
+  hub (docs.svtrobotics.com, ReadMe) is password-protected, so versioning and
+  deprecation posture could not be verified. Absence here is honest, not fabricated.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []
